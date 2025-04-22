@@ -12,3 +12,5 @@ jobs:
           echo Second line
       - name: check path
         run: pwd
+        run: cd /home/runner
+        run: pwd
